@@ -99,7 +99,7 @@ html {
 .frl-hero-inner > h1 {
   color: #fff;
   font-weight: 300;
-  font-size: 50px;
+  /*font-size: 50px;*/
   /*font-size: 55px;*/
   letter-spacing: 2px;
 }
@@ -136,6 +136,7 @@ html {
 										ADVANTAGES
    ========================================================================================================== */
 .frl-advantages-outer {
+  margin-top: 450px;
   padding: 70px;
   height: auto;
   width: 100%;
@@ -595,11 +596,16 @@ html {
 
 .frl-hero-inner .frl-hero-ipad {
   width:  100%;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 1400px) {
   body {
     overflow-x: hidden;
+  }
+
+  .frl-advantages-outer {
+    margin-top: 450px;
   }
 
   .frl-hero-inner .frl-hero-smartphone {
@@ -610,7 +616,7 @@ html {
   }
 
   .frl-hero-inner .frl-hero-ipad {
-    position: absolute;
+    /*position: absolute;*/
     right: 50px;
     top: 200px;
     /*height: 460px;*/
@@ -629,6 +635,10 @@ html {
     overflow-x: hidden;
   }
 
+  .frl-advantages-outer {
+    margin-top: 350px;
+  }
+
   .frl-hero-inner .frl-hero-smartphone {
     position: absolute;
     right: -15px;
@@ -637,7 +647,7 @@ html {
   }
 
   .frl-hero-inner .frl-hero-ipad {
-    position: absolute;
+    /*position: absolute;*/
     right: -15px;
     top: 200px;
     /*height: 460px;*/
@@ -649,9 +659,13 @@ html {
     overflow-x: hidden;
   }
 
-  #frl-hero-wrapper {
-    height: 95vh;
+  .frl-advantages-outer {
+    margin-top: 250px;
   }
+
+/*  #frl-hero-wrapper {
+    height: 95vh;
+  }*/
 
   .frl-hero-inner {
     margin-top: 30px;
@@ -668,10 +682,6 @@ html {
     margin-top: 110px;
   }
 
-  .frl-advantages-outer {
-    margin-top: 50px;
-    padding-bottom: 0;
-  }
 
   .frl-advantages-outer .frl-advantages-grid-columns .col-sm-4 .grid-image {
     width: 60px;
@@ -716,106 +726,13 @@ html {
     font-size: 20px;
   }
 }
-@media screen and (max-width: 993px) {
-  .frl-features-grid-columns .col-sm-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 100%;
-    width: 100%;
-    max-width: 100%;
-    margin: 30px auto;
-    text-align: center;
-  }
 
-  .frl-features-outer .col-sm-6 .col-sm-image-container {
-    position: relative;
-    width: 295px !important;
-    text-align: center;
-    margin: 15px auto 0;
-  }
-
-  .no-float {
-    float: none !important;
-  }
-
-  .frl-slider-outer .carousel-right-arrow {
-    position: absolute;
-    right: -70px;
-    bottom: 250px;
-    font-size: 60px;
-    color: #ececec;
-  }
-
-  .frl-slider-outer .carousel-left-arrow {
-    position: absolute;
-    left: -70px;
-    bottom: 250px;
-    font-size: 60px;
-    color: #ececec;
-  }
-
-  .img-float-right {
-    float: none;
-  }
-
-  .img-float-left {
-    float: none;
-  }
-
-  .frl-features-outer .col-sm-6 .span-percent, .frl-features-outer .col-sm-6 .span-free {
-    left: -15px;
-    bottom: 140px;
-  }
-
-  .frl-features-outer .col-sm-6 .span-new {
-    right: -10px;
-  }
-
-  .frl-features-outer .col-sm-6 .span-data {
-    right: -15px;
-  }
-
-  .frl-features-outer .col-sm-6 .circle {
-    position: static;
-    display: inline-block;
-    margin: 25px 5px;
-  }
-
-  .frl-advantages-outer .second-title {
-    margin-top: 60px;
-  }
-
-  .frl-features-grid-columns {
-    display: flex;
-    flex-direction: column;
-  }
-  .frl-features-grid-columns .in-order-4 {
-    order: 1;
-  }
-  .frl-features-grid-columns .in-order-3 {
-    order: 2;
-  }
-
-  .frl-reviews-outer {
-    padding: 0;
-  }
-
-  .navbar-light .navbar-toggler {
-    color: #fff !important;
-    border-color: #c7c7c7 !important;
-  }
-
-  .navbar-light .navbar-nav .nav-link {
-    margin: 0;
-    width: 100%;
-  }
-
-  .social-icons-header i:first-of-type {
-    margin-right: 10px !important;
-    margin-left: 0 !important;
-    font-size: 30px;
-  }
-}
 @media screen and (max-width: 800px) {
+
+  .frl-advantages-outer {
+    margin-top: 150px;
+  }
+
   .frl-hero-inner > h1 {
     color: #fff;
     font-weight: 300;
@@ -964,6 +881,11 @@ html {
   }
 }
 @media screen and (max-width: 520px) {
+
+  .frl-advantages-outer {
+    margin-top: 50px;
+  }
+
   #frl-hero-wrapper {
     height: 900px;
   }
