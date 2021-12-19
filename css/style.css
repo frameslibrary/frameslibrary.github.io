@@ -411,7 +411,7 @@ html {
   width: 100%;
   height: 500px;
   padding: 70px;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
 }
 .frl-reviews-outer .frl-reviews-inner {
   margin-top: 100px;
@@ -639,6 +639,10 @@ html {
     margin-top: 350px;
   }
 
+  .frl-bottom-outer2 {
+      margin-top: 300px;
+  }
+
   .frl-hero-inner .frl-hero-smartphone {
     position: absolute;
     right: -15px;
@@ -682,6 +686,9 @@ html {
     margin-top: 110px;
   }
 
+  .frl-bottom-outer2 {
+      margin-top: 300px;
+  }
 
   .frl-advantages-outer .frl-advantages-grid-columns .col-sm-4 .grid-image {
     width: 60px;
@@ -765,6 +772,10 @@ html {
   .frl-hero-inner .frl-hero-ipad {
     /*height: 420px;*/
     top: 310px;
+  }
+
+  .frl-bottom-outer2 {
+      margin-top: 250px;
   }
 
   .frl-advantages-outer .second-title {
