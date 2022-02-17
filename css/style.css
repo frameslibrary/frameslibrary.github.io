@@ -53,15 +53,15 @@ html {
 }
 .main-navbar-nav li {
   color: #fff;
-  opacity: .7;
+  opacity: 0.7;
 }
 .main-navbar-nav .navbar-nav .nav-item a:hover {
   color: #234197 !important;
-  -webkit-transition: all .33s ease;
-  -moz-transition: all .33s ease;
-  -o-transition: all .33s ease;
-  -ms-transition: all .33s ease;
-  transition: all .33s ease;
+  -webkit-transition: all 0.33s ease;
+  -moz-transition: all 0.33s ease;
+  -o-transition: all 0.33s ease;
+  -ms-transition: all 0.33s ease;
+  transition: all 0.33s ease;
 }
 .main-navbar-nav .active {
   color: #fff !important;
@@ -83,12 +83,12 @@ html {
 }
 
 .social-icons-header a:hover i {
-  opacity: .6;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  transition: all .2s ease;
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .frl-hero-inner {
@@ -207,7 +207,8 @@ html {
   margin-bottom: 10px;
   text-align: center;
 }
-.frl-slider-outer > h1, .frl-slider-outer small {
+.frl-slider-outer > h1,
+.frl-slider-outer small {
   text-align: center;
   display: block;
 }
@@ -257,7 +258,7 @@ html {
   height: 550px;
 }
 .frl-features-outer .sm-6-content {
-  margin-top: 250px;
+  margin-top: 150px;
   position: relative;
 }
 .frl-features-outer .sm-6-content h1 {
@@ -410,7 +411,7 @@ html {
 .frl-reviews-outer {
   width: 100%;
   height: 500px;
-  padding: 70px;
+  padding: 20px;
   /*margin-top: 100px;*/
 }
 .frl-reviews-outer .frl-reviews-inner {
@@ -473,7 +474,7 @@ html {
   margin-top: 25px;
 }
 
-   /* ==========================================================================================================
+/* ==========================================================================================================
 										SUB FOOTER
    ========================================================================================================== */
 .img-float-left {
@@ -500,12 +501,12 @@ html {
   font-size: 20px;
 }
 .footer-outer .social-icons-footer a:hover i {
-  opacity: .6;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  -ms-transition: all .2s ease;
-  transition: all .2s ease;
+  opacity: 0.6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .footer-outer .footer-three-grid {
   width: 1140px;
@@ -542,9 +543,9 @@ html {
 .footer-outer .column-3-3 .social-icons-header a:hover {
   color: #fff;
   opacity: 1;
-  -webkit-transition: color .2s ease;
-  -o-transition: color .2s ease;
-  transition: color .2s ease;
+  -webkit-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  transition: color 0.2s ease;
 }
 .footer-outer .footer-nav ul {
   list-style: none;
@@ -559,9 +560,9 @@ html {
 }
 .footer-outer .footer-nav ul li:hover {
   color: #fff;
-  -webkit-transition: color .2s ease-in-out;
-  -o-transition: color .2s ease-in-out;
-  transition: color .2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
 }
 .footer-outer .footer-nav ul .active {
   color: #fff;
@@ -589,13 +590,12 @@ html {
   margin-left: 10px;
 }
 
-
 /* ==========================================================================================================
                                        RESPONSIVE STYLING
   ========================================================================================================== */
 
 .frl-hero-inner .frl-hero-ipad {
-  width:  100%;
+  width: 100%;
   margin-top: 50px;
 }
 
@@ -640,7 +640,7 @@ html {
   }
 
   .frl-bottom-outer2 {
-      margin-top: 300px;
+    margin-top: 300px;
   }
 
   .frl-hero-inner .frl-hero-smartphone {
@@ -656,7 +656,6 @@ html {
     top: 200px;
     /*height: 460px;*/
   }
-
 }
 @media screen and (max-width: 993px) {
   body {
@@ -667,7 +666,7 @@ html {
     margin-top: 250px;
   }
 
-/*  #frl-hero-wrapper {
+  /*  #frl-hero-wrapper {
     height: 95vh;
   }*/
 
@@ -687,7 +686,7 @@ html {
   }
 
   .frl-bottom-outer2 {
-      margin-top: 300px;
+    margin-top: 300px;
   }
 
   .frl-advantages-outer .frl-advantages-grid-columns .col-sm-4 .grid-image {
@@ -735,7 +734,6 @@ html {
 }
 
 @media screen and (max-width: 800px) {
-
   .frl-advantages-outer {
     margin-top: 150px;
   }
@@ -775,7 +773,7 @@ html {
   }
 
   .frl-bottom-outer2 {
-      margin-top: 250px;
+    margin-top: 250px;
   }
 
   .frl-advantages-outer .second-title {
@@ -892,7 +890,6 @@ html {
   }
 }
 @media screen and (max-width: 520px) {
-
   .frl-advantages-outer {
     margin-top: 50px;
   }
